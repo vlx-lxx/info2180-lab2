@@ -1,0 +1,178 @@
+/* Reset some default styles for the header and main content */
+header, main {
+    padding: 20px;
+}
+
+body{
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #2D3748;
+}
+
+p{
+    color: #fff;
+}
+
+/* Styles for the header */
+header {
+    background-color: #63B3ED;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header p {
+    font-style: italic;
+    margin: 10px 0;
+    color: wheat;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    margin-top: 10px;
+}
+
+/* Styles for the blog posts */
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post h2 {
+    font-size: 32px;
+    margin: 0;
+    color: #48BB78;
+}
+
+.datetxt{
+    color: #718096;
+    font-size: 0.9em;
+}
+
+.blog-post p:first-child {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.float-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+}
+
+.float-right {
+    float: right;
+    margin: 10px 0 10px 20px;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+}
+
+
+
+.profile-photo {
+    border-radius: 50%; /* Creates a circular shape */
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border: 3px solid #fff; /* Add a white border around the image */
+    margin-top: 10px;
+}
+
+h3{
+    color: #fff;
+}
+
+
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1cm;
+    padding: 20px;
+}
+
+main {
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+   
+}
+
+aside {
+    background-color: none;
+    
+    padding: 50px; 
+}
+
+
+/* Apply styles to the sidebar */
+.sidebar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Target the About section */
+.sidebar section:nth-child(1) {
+    color: darkblue;
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+
+
+/* Style headings inside the sidebar */
+/* Style the About section */
+.sidebar section.about-heading h3 {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #E2E8F0;
+    padding: 1px; /* Adjust the padding as needed */
+}
+
+/* Style the Social Media and Archives headings */
+.sidebar section h3 {
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-heading {
+    color: pink; /* This will make the first "About" heading pink */
+}
+
+
+/* Reset list styles for ul elements */
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+/* Style links in the "Social Media" and "Archives" sections */
+.sidebar ul li a {
+    color: #4299E1;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+
+.container{
+    display: grid;
+}
+
+footer {
+    background-color: #2C5282; /* Blue background for the copyright section */
+    color: #fff; /* White text color for the copyright text */
+    padding: 2px;
+    text-align: center;
+}
+
